@@ -1,0 +1,11 @@
+@media screen and (max-width: 992px) {
+    .nextRow {
+        margin-bottom: 2vh;
+    }
+}
+
+@media screen and (min-width: 992px){
+    .nextRow {
+        margin-bottom: 0px;
+    }
+}

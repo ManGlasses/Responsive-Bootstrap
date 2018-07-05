@@ -1,0 +1,53 @@
+@media screen and (max-width: 768px){
+    #firstDiv {
+        height: 8vh;
+    }
+
+    #secondDiv {
+        height: 14vh;
+    }
+
+    #thirdDiv {
+        height: 8vh;
+    }
+
+    #fourthDiv {
+        height: 6vh;
+    }
+}
+
+@media screen and (min-width: 768px){
+    #firstDiv {
+        height: 7vh;
+    }
+
+    #secondDiv {
+        height: 21vh;
+    }
+
+    #thirdDiv {
+        height: 7vh;
+    }
+
+    #fourthDiv {
+        height: 12vh;
+    }
+}
+
+@media screen and (min-width: 992px){
+    #firstDiv {
+        height: 19vh;
+    }
+    
+    #secondDiv {
+        height: 26vh;
+    }
+    
+    #thirdDiv {
+        height: 26vh;
+    }
+    
+    #fourthDiv {
+        height: 19vh;
+    }
+}
