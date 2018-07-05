@@ -1,73 +1,88 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
 
-        <link rel="stylesheet" href="css/color.css">
-        <link rel="stylesheet" href="css/heightDiv.css">
-        <link rel="stylesheet" href="css/divGroup.css">
-        <link rel="stylesheet" href="css/marginDiv.css">
-        
-        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css">
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js"></script>
-        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js"></script>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 
-        <title>Workshop - Bootstrap</title>
-    </head>
-    <body>
+    <link rel="stylesheet" href="css/color.css">
+    <link rel="stylesheet" href="css/heightDiv.css">
+    <link rel="stylesheet" href="css/divGroup.css">
+    <link rel="stylesheet" href="css/marginDiv.css">
 
-        <div class="container.fluid" style="margin: 2vh 4vw 0px 4vw;">
-            <div class="row">
-                <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12 col-xs-12 nextRow">
-                    <div class="blue" id="firstDiv">&nbsp;</div>
-                </div>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js"></script>
 
-                <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12 col-xs-12">
-                    <div class="blue" id="firstDiv">&nbsp;</div>
-                </div>
+    <title>Workshop - Bootstrap</title>
+
+    <style>
+        .gutter.row {
+            margin-right: -5px;
+            margin-left: -5px;
+        }
+
+        .gutter>[class^="col-"] {
+            padding-right: 5px;
+            padding-left: 5px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="container.fluid" style="margin: 2vh 4vw 0px 4vw;">
+        <div class="gutter row">
+            <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12 col-xs-12 nextRow">
+                <div class="blue" id="firstDiv">&nbsp;</div>
             </div>
 
-            <div class="row">
-                <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-xs-12">
-                    <div class="orange" id="secondDiv">&nbsp;</div>
-                </div>
-            </div>
-
-            <div class="row">
-                <div class="col-xl-4 col-lg-4 col-md-12 col-sm-12 col-xs-12 nextRow">
-                    <div class="green" id="thirdDiv">&nbsp;</div>
-                </div>
-
-                <div class="col-xl-4 col-lg-4 col-md-12 col-sm-12 col-xs-12 nextRow">
-                    <div class="green" id="thirdDiv">&nbsp;</div>
-                </div>
-
-                <div class="col-xl-4 col-lg-4 col-md-12 col-sm-12 col-xs-12">
-                    <div class="green" id="thirdDiv">&nbsp;</div>
-                </div>
-            </div>
-
-            <div class="row">
-                <div class="col-xl-3 col-lg-3 col-md-6 col-sm-12 col-xs 12 nextRow">
-                    <div class="red" id="fourthDiv">&nbsp;</div>
-                </div>
-
-                <div class="col-xl-3 col-lg-3 col-md-6 col-sm-12 col-xs 12 nextRow">
-                    <div class="red" id="fourthDiv">&nbsp;</div>
-                </div>
-
-                <div class="col-xl-3 col-lg-3 col-md-6 col-sm-12 col-xs 12 nextRow">
-                    <div class="red" id="fourthDiv">&nbsp;</div>
-                </div>
-
-                <div class="col-xl-3 col-lg-3 col-md-6 col-sm-12 col-xs 12">
-                    <div class="red" id="fourthDiv">&nbsp;</div>
-                </div>
+            <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12 col-xs-12">
+                <div class="blue" id="firstDiv">&nbsp;</div>
             </div>
         </div>
 
-    </body>
+        <div class="row">
+            <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                <div class="orange" id="secondDiv">&nbsp;</div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-xl-4 col-lg-4 col-md-12 col-sm-12 col-xs-12 nextRow">
+                <div class="green" id="thirdDiv">&nbsp;</div>
+            </div>
+
+            <div class="col-xl-4 col-lg-4 col-md-12 col-sm-12 col-xs-12 nextRow">
+                <div class="green" id="thirdDiv">&nbsp;</div>
+            </div>
+
+            <div class="col-xl-4 col-lg-4 col-md-12 col-sm-12 col-xs-12">
+                <div class="green" id="thirdDiv">&nbsp;</div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-xl-3 col-lg-3 col-md-6 col-sm-12 col-xs-12 nextRow">
+                <div class="red" id="fourthDiv">&nbsp;</div>
+            </div>
+
+            <div class="col-xl-3 col-lg-3 col-md-6 col-sm-12 col-xs-12 nextRow">
+                <div class="red" id="fourthDiv">&nbsp;</div>
+            </div>
+
+            <div class="col-xl-3 col-lg-3 col-md-6 col-sm-12 col-xs-12 nextRow">
+                <div class="red" id="fourthDiv">&nbsp;</div>
+            </div>
+
+            <div class="col-xl-3 col-lg-3 col-md-6 col-sm-12 col-xs-12">
+                <div class="red" id="fourthDiv">&nbsp;</div>
+            </div>
+        </div>
+
+    </div>
+
+</body>
 
 </html>
