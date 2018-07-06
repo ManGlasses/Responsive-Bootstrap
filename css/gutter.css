@@ -1,0 +1,9 @@
+.gutter.row {
+    margin-right: -5px;
+    margin-left: -5px;
+}
+
+.gutter>[class^="col-"] {
+    padding-right: 5px;
+    padding-left: 5px;
+}

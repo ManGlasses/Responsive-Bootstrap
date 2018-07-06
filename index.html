@@ -7,8 +7,9 @@
 
     <link rel="stylesheet" href="css/color.css">
     <link rel="stylesheet" href="css/heightDiv.css">
-    <link rel="stylesheet" href="css/divGroup.css">
-    <link rel="stylesheet" href="css/marginDiv.css">
+    <link rel="stylesheet" href="css/row.css">
+    <link rel="stylesheet" href="css/nextRow.css">
+    <link rel="stylesheet" href="css/gutter.css">
 
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
@@ -17,67 +18,55 @@
 
     <title>Workshop - Bootstrap</title>
 
-    <style>
-        .gutter.row {
-            margin-right: -5px;
-            margin-left: -5px;
-        }
-
-        .gutter>[class^="col-"] {
-            padding-right: 5px;
-            padding-left: 5px;
-        }
-    </style>
 </head>
 
 <body>
 
     <div class="container.fluid" style="margin: 2vh 4vw 0px 4vw;">
+
+        <!-- First Dive -->
         <div class="gutter row">
             <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12 col-xs-12 nextRow">
-                <div class="blue" id="firstDiv">&nbsp;</div>
+                <div class="blue">&nbsp;</div>
             </div>
-
             <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12 col-xs-12">
-                <div class="blue" id="firstDiv">&nbsp;</div>
+                <div class="blue">&nbsp;</div>
             </div>
         </div>
 
-        <div class="row">
+        <!-- Second Div -->
+        <div class="gutter row">
             <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-xs-12">
-                <div class="orange" id="secondDiv">&nbsp;</div>
+                <div class="orange">&nbsp;</div>
             </div>
         </div>
 
-        <div class="row">
+        <!-- Third Div -->
+        <div class="gutter row">
             <div class="col-xl-4 col-lg-4 col-md-12 col-sm-12 col-xs-12 nextRow">
-                <div class="green" id="thirdDiv">&nbsp;</div>
+                <div class="green">&nbsp;</div>
             </div>
-
             <div class="col-xl-4 col-lg-4 col-md-12 col-sm-12 col-xs-12 nextRow">
-                <div class="green" id="thirdDiv">&nbsp;</div>
+                <div class="green">&nbsp;</div>
             </div>
-
             <div class="col-xl-4 col-lg-4 col-md-12 col-sm-12 col-xs-12">
-                <div class="green" id="thirdDiv">&nbsp;</div>
+                <div class="green">&nbsp;</div>
             </div>
         </div>
 
-        <div class="row">
+        <!-- Fourth Div -->
+        <div class="gutter row">
             <div class="col-xl-3 col-lg-3 col-md-6 col-sm-12 col-xs-12 nextRow">
-                <div class="red" id="fourthDiv">&nbsp;</div>
+                <div class="red">&nbsp;</div>
             </div>
-
             <div class="col-xl-3 col-lg-3 col-md-6 col-sm-12 col-xs-12 nextRow">
-                <div class="red" id="fourthDiv">&nbsp;</div>
+                <div class="red">&nbsp;</div>
             </div>
-
             <div class="col-xl-3 col-lg-3 col-md-6 col-sm-12 col-xs-12 nextRow">
-                <div class="red" id="fourthDiv">&nbsp;</div>
+                <div class="red">&nbsp;</div>
             </div>
-
             <div class="col-xl-3 col-lg-3 col-md-6 col-sm-12 col-xs-12">
-                <div class="red" id="fourthDiv">&nbsp;</div>
+                <div class="red">&nbsp;</div>
             </div>
         </div>
 

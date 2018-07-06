@@ -1,53 +1,53 @@
 @media screen and (max-width: 768px){
-    #firstDiv {
-        height: 8vh;
+    .col-xl-6>div {
+        height: 12vh;
     }
 
-    #secondDiv {
+    .col-xl-12>div {
         height: 14vh;
     }
-
-    #thirdDiv {
+    
+    .col-xl-4>div {
         height: 8vh;
     }
 
-    #fourthDiv {
+    .col-xl-3>div {
         height: 6vh;
     }
 }
 
 @media screen and (min-width: 768px){
-    #firstDiv {
+    .col-xl-6>div {
         height: 7vh;
     }
 
-    #secondDiv {
+    .col-xl-12>div {
         height: 21vh;
     }
-
-    #thirdDiv {
+    
+    .col-xl-4>div {
         height: 7vh;
     }
 
-    #fourthDiv {
+    .col-xl-3>div {
         height: 12vh;
     }
 }
 
 @media screen and (min-width: 992px){
-    #firstDiv {
+    .col-xl-6>div {
         height: 19vh;
     }
-    
-    #secondDiv {
+
+    .col-xl-12>div {
         height: 26vh;
     }
     
-    #thirdDiv {
+    .col-xl-4>div {
         height: 26vh;
     }
-    
-    #fourthDiv {
+
+    .col-xl-3>div {
         height: 19vh;
     }
 }
