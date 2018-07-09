@@ -1,0 +1,8 @@
+div[class^="col-"] {
+    padding: 0vh 0.8vw;
+    float: left;
+}
+
+div[class^="col-"]>div {
+    margin: 0vh 0vw 2vh;
+}
